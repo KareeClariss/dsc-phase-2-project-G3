@@ -1,75 +1,90 @@
 # 🎬 Data-Driven Movie Studio Strategy  
 **Phase 2 Project – Group 3**  
 
----
+
 
 ## 📌 Overview  
-This project explores movie industry data to guide the launch of a **profitable new movie studio**.  
-Using exploratory data analysis (EDA), we provide **data-driven insights** into which film genres and budget strategies maximize ROI (Return on Investment).  
+This project explores data from the movie industry to guide the launch of a **profitable new movie studio**.  
+Our task was to conduct **exploratory data analysis (EDA)** on real-world movie datasets in order to identify which types of films are most successful at the box office and how production budgets influence outcomes.  
 
-Our recommendations help the company decide **what films to create** and **how to allocate budgets effectively**.  
+The ultimate goal is to provide **actionable, business-focused recommendations** that will help decision-makers understand what films to produce, how much to spend, and what strategies maximize returns on investment.  
 
----
+We analyzed over **900 films released between 2010 and 2019**, integrating multiple datasets to uncover clear insights about profitability, risk management, and audience behavior.  
+
+
 
 ## 👥 Team Members  
-- Fatuma  
-- Brian  
-- Clariss *(Scrum Master)*  
-- Lydia  
+This was a group project completed by **Group 3** as part of our Data Science Phase 2 deliverable:  
+- Fatuma Tari
+- Brian Kahiu
+- Clariss Wangari *(Scrum Master)*  
+- Lyndia Onkundi
 
----
+The team collaborated using GitHub for version control and branch management. Each member contributed to the analysis, documentation, and presentation.  
+
+
 
 ## 🎯 Business Understanding  
 
 ### The Problem  
-Our company wants to enter the movie industry but lacks domain expertise.  
-The challenge: **Which types of films will maximize success at the box office?**  
+Our company wants to enter the competitive movie industry but does not yet know which types of films are most likely to succeed. Entering the wrong genre or overspending on blockbuster budgets could result in financial losses.  
+
+The challenge is therefore:  
+**Which types of films will maximize box office success while balancing risk and reward?**  
 
 ### Key Business Questions  
-1. Which genres deliver the highest ROI?  
-2. What budget ranges balance risk and reward?  
-3. Do critical ratings strongly influence financial performance?  
+To answer this challenge, we focused on three central questions:  
+1. **Genres** – Which film genres deliver the highest Return on Investment (ROI)?  
+2. **Budgets** – What budget ranges are most cost-effective for a new studio?  
+3. **Ratings** – Do critical or audience ratings strongly influence financial success?  
 
----
+These questions form the backbone of our analysis and business recommendations.  
+
+
 
 ## 📊 Data Understanding & Analysis  
 
 ### Data Sources  
-- **Box Office Mojo** – worldwide gross  
-- **IMDB** – ratings, metadata (SQLite database)  
-- **The Numbers** – budget, revenue data  
-- **Rotten Tomatoes** & **TheMovieDB** – supplemental details  
+The datasets were collected from multiple industry-standard sources, including:  
+- **Box Office Mojo** – worldwide gross revenues  
+- **IMDB** – ratings, metadata, and film attributes (stored in a SQLite database)  
+- **The Numbers** – production budget and revenue information  
+- **Rotten Tomatoes** and **TheMovieDB** – supplemental information for validation and enrichment  
 
-**Sample**: 934 films (2010–2019) with complete budget and revenue data.  
+The **sample includes 934 films from 2010–2019** with complete data on budgets, revenues, and ratings.  
 
 ### Metrics & Methods  
-- **ROI** = Worldwide Gross ÷ Production Budget  
-- Correlation analysis (budget vs. revenue)  
-- Comparative analysis across genres  
-- Visualizations to support recommendations  
+To analyze the data, we used the following metrics and techniques:  
+- **ROI Calculation** = (Worldwide Gross ÷ Production Budget)  
+- **Correlation Analysis** – to examine relationships between budget and revenue, and between ratings and ROI  
+- **Genre Comparisons** – to identify categories with the strongest performance  
+- **Data Visualizations** – to communicate findings clearly to both technical and non-technical audiences  
 
----
+Our methodology emphasized **clarity and interpretability** over complexity, ensuring that results could be directly translated into business recommendations.  
+
+
 
 ## 🔑 Findings & Recommendations  
 
 ### 1️⃣ Focus on High-ROI Genres  
-- Horror films yield **14.3x ROI** on average.  
-- Mystery & Thriller genres also outperform the market.  
+- Horror films consistently outperform other genres, with an **average ROI of 14.3x**.  
+- Mystery and Thriller genres also show above-average performance compared to the market.  
+- These genres typically require **lower production budgets**, yet they achieve strong commercial success.  
 
-➡️ **Action**: Prioritize horror/thriller films for studio launch.  
+➡️ **Recommendation**: Prioritize horror, thriller, and mystery films as the foundation of the new studio’s portfolio.  
 
 | Genre   | Avg ROI | Avg Budget | Success Rate |
 |---------|---------|------------|--------------|
 | Horror  | 14.3x   | $15M       | 68%          |
 | Average | 3.7x    | $60M       | 45%          |
 
----
+
 
 ### 2️⃣ Adopt a Tiered Budget Strategy  
-- ROI peaks in the **$20M–$60M budget range**.  
-- Avoid competing with $100M+ blockbusters initially.  
+- Strong correlation exists between budget and revenue, but **returns diminish after $100M**.  
+- The **sweet spot for ROI lies in the $20M–$60M range**, where financial risk is lower but potential revenue remains strong.  
 
-➡️ **Action**: Start with mid-range budgets to balance risk and reward.  
+➡️ **Recommendation**: Use a phased budget approach, scaling up only after early successes.  
 
 | Tier | Budget Range | Strategy |
 |------|--------------|----------|
@@ -77,44 +92,55 @@ The challenge: **Which types of films will maximize success at the box office?**
 | 2️⃣ Growth     | $30M–$60M | Expand into mystery/action, franchises |
 | 3️⃣ Expansion  | $60M–$100M | Compete with major studios |
 
----
+This staged approach allows the studio to **mitigate risk**, establish credibility, and gradually expand into larger markets.  
+
 
 ### 3️⃣ Balance Quality vs. Commerce  
-- Ratings show weak ROI correlation (**-0.06**).  
-- Audience demand matters more than critical acclaim.  
+- Ratings and ROI show a **weak correlation (-0.06)**, indicating that critical acclaim does not guarantee financial success.  
+- However, ratings have a **moderate positive effect on revenue (+0.28)**, showing some value in marketing appeal.  
 
-➡️ **Action**: Target audience appeal and proven formulas.  
+➡️ **Recommendation**: Focus primarily on **audience demand and commercial viability**, while ensuring sufficient quality to attract consistent viewership.  
 
----
+
 
 ## 📈 Visualizations (to include)  
-1. ROI by Genre – Horror dominates profitability  
-2. Budget vs. Revenue – Clear sweet spot at mid-range budgets  
-3. Ratings vs. ROI – Weak correlation between ratings & ROI  
+The analysis was supported by multiple visualizations. Three key plots are central to the findings:  
 
-*(Add visualizations here once saved as images and linked in Markdown)*  
+1. **ROI by Genre** – Horror dominates profitability  
+2. **Budget vs. Revenue** – Clear sweet spot at mid-range budgets  
+3. **Ratings vs. ROI** – Weak correlation between critic ratings and profitability  
 
----
+*(Plots can be embedded here once exported as images from the Jupyter Notebook)*  
+
+
 
 ## 🛠️ Deliverables  
-- 📑 **[Presentation (PDF)](./Data-Driven%20Movie%20Studio%20Strategy%20(1).pdf)** – Business stakeholder presentation  
-- 📓 **[Jupyter Notebook](./student%20(1).ipynb)** – Full exploratory data analysis  
+This project produced three main deliverables:  
 
----
+- 📑 **[Presentation (PDF)](./Data-Driven%20Movie%20Studio%20Strategy%20(1).pdf)**  
+  A non-technical presentation for business stakeholders, highlighting findings and recommendations.  
+
+- 📓 **[Jupyter Notebook](./student%20(1).ipynb)**  
+  A technical notebook combining Python code, analysis, and Markdown explanations.  
+
+- 📂 **GitHub Repository**  
+  A collaborative version-controlled environment documenting our full workflow.  
+
+
 
 ## ✅ Conclusion  
-- Launch with **low- to mid-budget horror/thriller films**  
-- Maintain strict **budget control ($20M–$60M)**  
-- Focus on **audience demand and proven genres** over critic scores  
-- Expect **3–8x ROI** within the first 24 months  
+Based on our exploratory analysis, we recommend the following strategic path for launching the new studio:  
+- Begin with **low- to mid-budget horror/thriller films**, where ROI is highest and financial risk is minimized.  
+- Maintain strict **budget control within the $20M–$60M range** to capture strong returns without competing with blockbusters.  
+- Focus on **audience preferences and commercial viability** over critic reviews, ensuring a balance of profitability and sustainable growth.  
 
----
+With this approach, the studio can expect a **3–8x ROI within 18–24 months**, with potential for greater success through sequels, franchises, and diversification.  
+
+
 
 ## 📂 Repository Structure  
-├── student.ipynb # Final Jupyter Notebook
-├── Data-Driven Movie Studio Strategy.pdf # Final presentation
-├── zippedData/ # Source datasets
-├── README.md # Project documentation
-└── .gitignore
-
-Copy code
+├── student.ipynb # Final Jupyter Notebook (full analysis)
+├── Data-Driven Movie Studio Strategy.pdf # Final presentation (slides for stakeholders)
+├── zippedData/ # Source datasets used in analysis
+├── README.md # Project documentation (this file)
+└── .gitignore # Git ignore file for unnecessary/large files
