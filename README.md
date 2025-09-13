@@ -71,20 +71,21 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 - Mystery and Thriller genres also show above-average performance compared to the market.  
 - These genres typically require **lower production budgets**, yet they achieve strong commercial success.  
 
-➡️ **Recommendation**: Prioritize horror, thriller, and mystery films as the foundation of the new studio’s portfolio.  
+ **Recommendation**: Prioritize horror, thriller, and mystery films as the foundation of the new studio’s portfolio.  
 
 | Genre   | Avg ROI | Avg Budget | Success Rate |
 |---------|---------|------------|--------------|
 | Horror  | 14.3x   | $15M       | 68%          |
 | Average | 3.7x    | $60M       | 45%          |
 
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/94877f32-8a75-426d-9046-6049d83710e7" />
 
 
 ### 2️⃣ Adopt a Tiered Budget Strategy  
 - Strong correlation exists between budget and revenue, but **returns diminish after $100M**.  
 - The **sweet spot for ROI lies in the $20M–$60M range**, where financial risk is lower but potential revenue remains strong.  
 
-➡️ **Recommendation**: Use a phased budget approach, scaling up only after early successes.  
+ **Recommendation**: Use a phased budget approach, scaling up only after early successes.  
 
 | Tier | Budget Range | Strategy |
 |------|--------------|----------|
@@ -99,7 +100,7 @@ This staged approach allows the studio to **mitigate risk**, establish credibili
 - Ratings and ROI show a **weak correlation (-0.06)**, indicating that critical acclaim does not guarantee financial success.  
 - However, ratings have a **moderate positive effect on revenue (+0.28)**, showing some value in marketing appeal.  
 
-➡️ **Recommendation**: Focus primarily on **audience demand and commercial viability**, while ensuring sufficient quality to attract consistent viewership.  
+ **Recommendation**: Focus primarily on **audience demand and commercial viability**, while ensuring sufficient quality to attract consistent viewership.  
 
 
 
