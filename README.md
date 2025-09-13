@@ -79,6 +79,7 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 | Average | 3.7x    | $60M       | 45%          |
 
 <img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/94877f32-8a75-426d-9046-6049d83710e7" />
+<img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/02549a92-bf76-47f6-a3f6-518eb8cb611f" />
 
 
 ### 2️⃣ Adopt a Tiered Budget Strategy  
@@ -93,7 +94,12 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 | 2️⃣ Growth     | $30M–$60M | Expand into mystery/action, franchises |
 | 3️⃣ Expansion  | $60M–$100M | Compete with major studios |
 
-This staged approach allows the studio to **mitigate risk**, establish credibility, and gradually expand into larger markets.  
+This staged approach allows the studio to **mitigate risk**, establish credibility, and gradually expand into larger markets.
+
+<img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/6b57997a-a2f4-4f86-924c-197d8b54066b" />
+
+
+<img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/6f4e5a0d-df95-44d6-adff-0024a541d028" />
 
 
 ### 3️⃣ Balance Quality vs. Commerce  
