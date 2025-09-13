@@ -88,9 +88,9 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 
 | Tier | Budget Range | Strategy |
 |------|--------------|----------|
-| 1️⃣ Foundation | $10M–$30M | Launch profitable horror/thrillers |
-| 2️⃣ Growth     | $30M–$60M | Expand into mystery/action, franchises |
-| 3️⃣ Expansion  | $60M–$100M | Compete with major studios |
+|  Foundation | $10M–$30M | Launch profitable horror/thrillers |
+|  Growth     | $30M–$60M | Expand into mystery/action, franchises |
+|  Expansion  | $60M–$100M | Compete with major studios |
 
 This staged approach allows the studio to **mitigate risk**, establish credibility, and gradually expand into larger markets.
 
