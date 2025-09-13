@@ -1,110 +1,120 @@
-**Data-Driven Movie Studio Strategy**
+# 🎬 Data-Driven Movie Studio Strategy  
+**Phase 2 Project – Group 3**  
 
-Phase 2 Project – Group 3
-Team Members
+---
 
-Fatuma Tari
+## 📌 Overview  
+This project explores movie industry data to guide the launch of a **profitable new movie studio**.  
+Using exploratory data analysis (EDA), we provide **data-driven insights** into which film genres and budget strategies maximize ROI (Return on Investment).  
 
-Brian Kahiu
+Our recommendations help the company decide **what films to create** and **how to allocate budgets effectively**.  
 
-Clariss Wangari (Scrum Master)
+---
 
-Lyndia Onkundi
+## 👥 Team Members  
+- Fatuma  
+- Brian  
+- Clariss *(Scrum Master)*  
+- Lydia  
 
-**Overview**
+---
 
-This project explores movie industry data to help our company launch a profitable new movie studio. Using exploratory data analysis (EDA), we provide data-driven insights into which film genres and budget strategies maximize ROI (Return on Investment).
+## 🎯 Business Understanding  
 
-Our goal is to guide business stakeholders in making informed decisions on what types of films to produce and how to allocate budgets effectively.
+### The Problem  
+Our company wants to enter the movie industry but lacks domain expertise.  
+The challenge: **Which types of films will maximize success at the box office?**  
 
+### Key Business Questions  
+1. Which genres deliver the highest ROI?  
+2. What budget ranges balance risk and reward?  
+3. Do critical ratings strongly influence financial performance?  
 
-**Business Understanding**
-The Problem
+---
 
-Our company wants to enter the movie industry but lacks domain expertise. The challenge: Which films should we produce to maximize success at the box office?
+## 📊 Data Understanding & Analysis  
 
-Key Business Questions
+### Data Sources  
+- **Box Office Mojo** – worldwide gross  
+- **IMDB** – ratings, metadata (SQLite database)  
+- **The Numbers** – budget, revenue data  
+- **Rotten Tomatoes** & **TheMovieDB** – supplemental details  
 
-Which genres deliver the highest ROI?
+**Sample**: 934 films (2010–2019) with complete budget and revenue data.  
 
-What budget ranges balance risk and reward?
+### Metrics & Methods  
+- **ROI** = Worldwide Gross ÷ Production Budget  
+- Correlation analysis (budget vs. revenue)  
+- Comparative analysis across genres  
+- Visualizations to support recommendations  
 
-Do critical ratings strongly influence financial performance?
+---
 
-**Data Understanding & Analysis**
-Data Sources
+## 🔑 Findings & Recommendations  
 
-Box Office Mojo – worldwide gross
+### 1️⃣ Focus on High-ROI Genres  
+- Horror films yield **14.3x ROI** on average.  
+- Mystery & Thriller genres also outperform the market.  
 
-IMDB – ratings, metadata (SQLite database)
+➡️ **Action**: Prioritize horror/thriller films for studio launch.  
 
-The Numbers – budget, revenue data
+| Genre   | Avg ROI | Avg Budget | Success Rate |
+|---------|---------|------------|--------------|
+| Horror  | 14.3x   | $15M       | 68%          |
+| Average | 3.7x    | $60M       | 45%          |
 
-Rotten Tomatoes & TheMovieDB – supplemental details
+---
 
-Sample: 934 films (2010–2019) with complete budget and revenue data.
+### 2️⃣ Adopt a Tiered Budget Strategy  
+- ROI peaks in the **$20M–$60M budget range**.  
+- Avoid competing with $100M+ blockbusters initially.  
 
-Metrics & Methods
+➡️ **Action**: Start with mid-range budgets to balance risk and reward.  
 
-ROI = Worldwide Gross ÷ Production Budget
+| Tier | Budget Range | Strategy |
+|------|--------------|----------|
+| 1️⃣ Foundation | $10M–$30M | Launch profitable horror/thrillers |
+| 2️⃣ Growth     | $30M–$60M | Expand into mystery/action, franchises |
+| 3️⃣ Expansion  | $60M–$100M | Compete with major studios |
 
-Correlation analysis (budget vs. revenue)
+---
 
-Comparative analysis across genres
+### 3️⃣ Balance Quality vs. Commerce  
+- Ratings show weak ROI correlation (**-0.06**).  
+- Audience demand matters more than critical acclaim.  
 
-Visualizations to support recommendations
+➡️ **Action**: Target audience appeal and proven formulas.  
 
-**Findings & Recommendations**
-1. Focus on High-ROI Genres
+---
 
-Horror films yield 14.3x ROI on average.
+## 📈 Visualizations (to include)  
+1. ROI by Genre – Horror dominates profitability  
+2. Budget vs. Revenue – Clear sweet spot at mid-range budgets  
+3. Ratings vs. ROI – Weak correlation between ratings & ROI  
 
-Mystery & Thriller genres also outperform the market.
-➡️ Action: Prioritize horror/thriller films for studio launch.
+*(Add visualizations here once saved as images and linked in Markdown)*  
 
-2. Adopt a Tiered Budget Strategy
+---
 
-ROI peaks in the $20M–$60M budget range.
+## 🛠️ Deliverables  
+- 📑 **[Presentation (PDF)](./Data-Driven%20Movie%20Studio%20Strategy%20(1).pdf)** – Business stakeholder presentation  
+- 📓 **[Jupyter Notebook](./student%20(1).ipynb)** – Full exploratory data analysis  
 
-Avoid competing with $100M+ blockbusters initially.
-➡️ Action: Start with mid-range budgets to balance risk and reward.
+---
 
-3. Balance Quality vs. Commerce
+## ✅ Conclusion  
+- Launch with **low- to mid-budget horror/thriller films**  
+- Maintain strict **budget control ($20M–$60M)**  
+- Focus on **audience demand and proven genres** over critic scores  
+- Expect **3–8x ROI** within the first 24 months  
 
-Ratings have weak ROI correlation (-0.06).
+---
 
-Audience demand matters more than critical acclaim.
-➡️ Action: Target audience appeal and proven formulas.
+## 📂 Repository Structure  
+├── student.ipynb # Final Jupyter Notebook
+├── Data-Driven Movie Studio Strategy.pdf # Final presentation
+├── zippedData/ # Source datasets
+├── README.md # Project documentation
+└── .gitignore
 
-**Visualizations**
-
-ROI by Genre – Horror dominates profitability
-
-Budget vs. Revenue – clear sweet spot at mid-range budgets
-
-Ratings vs. ROI – weak correlation between critical score and financial return
-
-**Deliverables**
-
-Presentation (PDF)
- – Non-technical business stakeholder presentation
-
-Jupyter Notebook
- – Full EDA and visualizations
-
-**Conclusion**
-
-Launch with low- to mid-budget horror/thriller films
-
-Maintain strict budget control ($20M–$60M)
-
-Focus on audience demand and proven genres over critical scores
-
-Expect 3–8x ROI within the first 24 months
-
-**Repository Structure**
-├── student.ipynb                 # Final Jupyter Notebook  
-├── Data-Driven Movie Studio Strategy.pdf   # Final presentation  
-├── zippedData/                   # Source datasets  
-├── README.md                     # Project documentation  
-└── .gitignore  
+Copy code
