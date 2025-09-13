@@ -1,9 +1,9 @@
-#  Data-Driven Movie Studio Strategy  
+# 🎬Data-Driven Movie Studio Strategy  
 **Phase 2 Project – Group 3**  
 
 
 
-##  Overview  
+## 📌Overview  
 This project explores data from the movie industry to guide the launch of a **profitable new movie studio**.  
 Our task was to conduct **exploratory data analysis (EDA)** on real-world movie datasets in order to identify which types of films are most successful at the box office and how production budgets influence outcomes.  
 
@@ -13,7 +13,7 @@ We analyzed over **900 films released between 2010 and 2019**, integrating multi
 
 
 
-##  Team Members  
+## 👥Team Members  
 This was a group project completed by **Group 3** as part of our Data Science Phase 2 deliverable:  
 - Fatuma Tari
 - Brian Kahiu
@@ -24,7 +24,7 @@ The team collaborated using GitHub for version control and branch management. Ea
 
 
 
-##  Business Understanding  
+## 🎯Business Understanding  
 
 ### The Problem  
 Our company wants to enter the competitive movie industry but does not yet know which types of films are most likely to succeed. Entering the wrong genre or overspending on blockbuster budgets could result in financial losses.  
@@ -42,7 +42,7 @@ These questions form the backbone of our analysis and business recommendations.
 
 
 
-##  Data Understanding & Analysis  
+## 📊Data Understanding & Analysis  
 
 ### Data Sources  
 The datasets were collected from multiple industry-standard sources, including:  
@@ -64,7 +64,7 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 
 
 
-##  Findings & Recommendations  
+## 🔑Findings & Recommendations  
 
 ### 1️⃣ Focus on High-ROI Genres  
 - Horror films consistently outperform other genres, with an **average ROI of 14.3x**.  
@@ -102,7 +102,7 @@ This staged approach allows the studio to **mitigate risk**, establish credibili
  **Recommendation**: Focus primarily on **audience demand and commercial viability**, while ensuring sufficient quality to attract consistent viewership.  
 
  
-##  Visualizations  
+## 📈Visualizations  
 The analysis was supported by multiple visualizations. Three key plots are central to the findings:  
 
 1. **ROI by Genre** – Horror dominates profitability  
@@ -114,7 +114,7 @@ The analysis was supported by multiple visualizations. Three key plots are centr
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/33c25adf-85bc-4473-9fdc-b99c9a85ba6b" />
 
 
-##  Deliverables  
+## 🛠️Deliverables  
 This project produced three main deliverables:  
 
 -  **[Presentation (PDF)](./Data-Driven%20Movie%20Studio%20Strategy%20(1).pdf)**  
@@ -128,7 +128,7 @@ This project produced three main deliverables:
 
 
 
-##  Conclusion  
+## ✅Conclusion  
 Based on our exploratory analysis, we recommend the following strategic path for launching the new studio:  
 - Begin with **low- to mid-budget horror/thriller films**, where ROI is highest and financial risk is minimized.  
 - Maintain strict **budget control within the $20M–$60M range** to capture strong returns without competing with blockbusters.  
@@ -138,7 +138,7 @@ With this approach, the studio can expect a **3–8x ROI within 18–24 months**
 
 
 
-##  Repository Structure  
+## 📂Repository Structure  
 
 | File / Folder | Description |
 |---------------|-------------|
