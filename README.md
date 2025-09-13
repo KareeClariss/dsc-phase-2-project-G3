@@ -78,8 +78,6 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 | Horror  | 14.3x   | $15M       | 68%          |
 | Average | 3.7x    | $60M       | 45%          |
 
-<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/94877f32-8a75-426d-9046-6049d83710e7" />
-<img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/02549a92-bf76-47f6-a3f6-518eb8cb611f" />
 
 
 ### 2️⃣ Adopt a Tiered Budget Strategy  
@@ -96,11 +94,6 @@ Our methodology emphasized **clarity and interpretability** over complexity, ens
 
 This staged approach allows the studio to **mitigate risk**, establish credibility, and gradually expand into larger markets.
 
-<img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/6b57997a-a2f4-4f86-924c-197d8b54066b" />
-
-
-<img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/6f4e5a0d-df95-44d6-adff-0024a541d028" />
-
 
 ### 3️⃣ Balance Quality vs. Commerce  
 - Ratings and ROI show a **weak correlation (-0.06)**, indicating that critical acclaim does not guarantee financial success.  
@@ -108,17 +101,17 @@ This staged approach allows the studio to **mitigate risk**, establish credibili
 
  **Recommendation**: Focus primarily on **audience demand and commercial viability**, while ensuring sufficient quality to attract consistent viewership.  
 
-
-
-## 📈 Visualizations (to include)  
+ 
+## 📈 Visualizations  
 The analysis was supported by multiple visualizations. Three key plots are central to the findings:  
 
 1. **ROI by Genre** – Horror dominates profitability  
 2. **Budget vs. Revenue** – Clear sweet spot at mid-range budgets  
 3. **Ratings vs. ROI** – Weak correlation between critic ratings and profitability  
 
-*(Plots can be embedded here once exported as images from the Jupyter Notebook)*  
-
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/6c245236-a1d6-445f-b29e-af20126a6065" />
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/3ad215d8-37c9-4f1c-a345-6915d45b896a" />
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/33c25adf-85bc-4473-9fdc-b99c9a85ba6b" />
 
 
 ## 🛠️ Deliverables  
@@ -146,8 +139,11 @@ With this approach, the studio can expect a **3–8x ROI within 18–24 months**
 
 
 ## 📂 Repository Structure  
-├── student.ipynb # Final Jupyter Notebook (full analysis)
-├── Data-Driven Movie Studio Strategy.pdf # Final presentation (slides for stakeholders)
-├── zippedData/ # Source datasets used in analysis
-├── README.md # Project documentation (this file)
-└── .gitignore # Git ignore file for unnecessary/large files
+
+| File / Folder | Description |
+|---------------|-------------|
+| `student.ipynb` | Final Jupyter Notebook containing full exploratory analysis |
+| `Data-Driven Movie Studio Strategy.pdf` | Final stakeholder presentation (slides) |
+| `zippedData/` | Source datasets used in analysis (CSV, TSV, SQLite) |
+| `README.md` | Project documentation (this file) |
+| `.gitignore` | Git ignore file for excluding unnecessary/large files |
