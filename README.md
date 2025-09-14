@@ -52,10 +52,10 @@ The datasets were collected from multiple industry-standard sources, including:
 The **sample includes 934 films from 2010–2019** with complete data on budgets, revenues, and ratings.  
 
 ### Metrics & Methods  
-- **ROI** = Worldwide Gross ÷ Production Budget  
+- ROI = Worldwide Gross ÷ Production Budget  
 - Correlation analysis (budget vs. revenue)  
 - Comparative analysis across genres  
-- **Linear Regression (Budget vs. Revenue)** → R² ≈ *0.65*, showing that ~65% of revenue variance is explained by production budget  
+- Linear Regression (Budget vs. Revenue) → R² ≈ *0.65*, showing that ~65% of revenue variance is explained by production budget  
 - Data visualizations to support recommendations  
 
 ---
