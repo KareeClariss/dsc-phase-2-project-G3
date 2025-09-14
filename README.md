@@ -15,10 +15,10 @@ We analyzed over **900 films released between 2010 and 2019**, integrating multi
 
 ## 👥 Team Members  
 This was a group project completed by **Group 3** as part of our Data Science Phase 2 deliverable:  
-- Fatuma  
-- Brian  
-- Clariss *(Scrum Master)*  
-- Lydia  
+- Fatuma Tari
+- Brian Kahiu
+- Clariss Wangari *(Scrum Master)*  
+- Lydia Onkundi
 
 The team collaborated using GitHub for version control and branch management. Each member contributed to the analysis, documentation, and presentation.  
 
