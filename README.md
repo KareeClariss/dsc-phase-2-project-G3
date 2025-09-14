@@ -119,7 +119,7 @@ This project produced three main deliverables:
 -  **Presentation (PDF)**
   A non-technical presentation for business stakeholders, highlighting findings and recommendations.
 
--  **Presentation video(PDF)**
+-  **Presentation video**
   A non-technical presentation video for business stakeholders, highlighting findings and recommendations.
   https://drive.google.com/file/d/1ZR9RMNVtSU-6E-G-AeEupIVSbDPn5N5K/view?usp=sharing
 
