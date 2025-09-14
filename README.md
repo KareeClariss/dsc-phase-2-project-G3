@@ -117,10 +117,15 @@ The **sample includes 934 films from 2010–2019** with complete data on budgets
 This project produced three main deliverables:  
 
 -  **Presentation (PDF)**
-  A non-technical presentation for business stakeholders, highlighting findings and recommendations.  
+  A non-technical presentation for business stakeholders, highlighting findings and recommendations.
+
+-  **Presentation video(PDF)**
+  A non-technical presentation video for business stakeholders, highlighting findings and recommendations.
+  https://drive.google.com/file/d/1ZR9RMNVtSU-6E-G-AeEupIVSbDPn5N5K/view?usp=sharing
 
 -  **Jupyter Notebook**  
-  A technical notebook combining Python code, analysis, and Markdown explanations.  
+  A technical notebook combining Python code, analysis, and Markdown explanations.
+  https://github.com/KareeClariss/dsc-phase-2-project-G3/blob/Brian/student.ipynb
 
 -  **GitHub Repository**  
   A collaborative version-controlled environment documenting our full workflow.  
